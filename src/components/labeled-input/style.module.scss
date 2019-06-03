@@ -1,0 +1,28 @@
+.wrapper {
+  background-color: white;
+
+  &.not-first {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .input {
+    display: inline-block;
+    width: 70%;
+    border: 0;
+    height: 60px;
+    font-size: 18px;
+    line-height: 60px;
+    font-weight: bold;
+  }
+
+  .label {
+    display: inline-block;
+    width: 30%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    color: lightgray;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
